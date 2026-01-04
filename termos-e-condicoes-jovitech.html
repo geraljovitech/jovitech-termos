@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Termos e Condições – Jovitech</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.5;
+      margin: 0;
+      padding: 24px;
+      background: #f6f6f6;
+      color: #111;
+    }
+
+    .wrap{
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .btn{
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 16px;
+      border: 0;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: 700;
+      background: #111;
+      color: #fff;
+    }
+
+    .btn:focus{
+      outline: 3px solid #ff7a00;
+      outline-offset: 3px;
+    }
+
+    /* Modal */
+    .modal-backdrop{
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.6);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 18px;
+      z-index: 9999;
+    }
+
+    .modal{
+      background: #fff;
+      width: min(980px, 100%);
+      max-height: 92vh;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0,0,0,.35);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .modal-header{
+      padding: 16px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #eaeaea;
+      background: #fff;
+    }
+
+    .modal-title{
+      margin: 0;
+      font-size: 18px;
+      font-weight: 800;
+    }
+
+    .close{
+      border: 0;
+      background: transparent;
+      cursor: pointer;
+      font-size: 18px;
+      padding: 8px 10px;
+      border-radius: 10px;
+    }
+
+    .close:hover{ background: #f2f2f2; }
+
+    .modal-body{
+      padding: 18px;
+      overflow: auto;
+      background: #fff;
+    }
+
+    .doc h1{
+      font-size: 22px;
+      margin: 0 0 12px 0;
+    }
+
+    .doc h2{
+      font-size: 16px;
+      margin: 18px 0 8px;
+    }
+
+    .doc p{
+      margin: 0 0 10px;
+    }
+
+    .doc ul{
+      margin: 0 0 10px 18px;
+    }
+
+    .divider{
+      border: 0;
+      border-top: 1px solid #eaeaea;
+      margin: 14px 0;
+    }
+
+    .note{
+      margin-top: 10px;
+      font-size: 13px;
+      color: #444;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <button class="btn" id="openTerms" type="button">📄 Termos e Condições</button>
+    <p class="note">Clique no botão para abrir os Termos e Condições.</p>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal-backdrop" id="termsModal" role="dialog" aria-modal="true" aria-labelledby="termsTitle">
+    <div class="modal">
+      <div class="modal-header">
+        <h2 class="modal-title" id="termsTitle">📄 Termos e Condições – Jovitech</h2>
+        <button class="close" id="closeTerms" type="button" aria-label="Fechar">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="doc">
+          <h1>TERMOS E CONDIÇÕES – JOVITECH</h1>
+
+          <h2>A. Introdução</h2>
+          <p><strong>A.1.</strong> A Jovitech, marca comercial da Raizincisiva Unipessoal, Lda, com o NIF 518 930 807, sede em Bairro 20 de Maio, nº57, 7080-011 Vendas Novas, presta serviços de diagnóstico, reparação e intervenção técnica em equipamentos elétricos e eletrónicos.</p>
+          <p><strong>A.2.</strong> Os presentes Termos e Condições regulam a prestação dos serviços da Jovitech e a sua aceitação é obrigatória, expressa e sem reservas por parte do Cliente. A solicitação de qualquer serviço implica a concordância integral com os mesmos.</p>
+          <p><strong>A.3.</strong> Estes Termos e Condições aplicam-se a consumidores finais, empresas e oficinas, independentemente de o serviço ser prestado presencialmente, à distância ou através de envio de equipamentos.</p>
+
+          <hr class="divider" />
+
+          <h2>B. Condições de Utilização</h2>
+          <p><strong>B.1.</strong> Os pedidos de reparação podem ser efetuados presencialmente, através de formulários, email, WhatsApp, redes sociais ou outros meios disponibilizados pela Jovitech.</p>
+          <p><strong>B.2.</strong> O Cliente compromete-se a fornecer informações verdadeiras, completas e corretas sobre o equipamento, abstendo-se de utilizar os meios disponibilizados para fins ilegais, ilícitos ou contrários à lei, à moral ou aos bons costumes.</p>
+          <p><strong>B.3.</strong> A Jovitech reserva-se o direito de alterar, a qualquer momento e sem aviso prévio, os conteúdos e os presentes Termos e Condições, sem prejuízo dos serviços já contratualizados.</p>
+          <p><strong>B.4.</strong> Todos os conteúdos técnicos, textos, imagens, esquemas, diagnósticos e comunicações são propriedade da Jovitech, não sendo permitida a sua reprodução sem autorização prévia.</p>
+
+          <hr class="divider" />
+
+          <h2>C. Proteção de Dados Pessoais (RGPD)</h2>
+          <p><strong>C.1.</strong> Os dados pessoais recolhidos destinam-se exclusivamente à gestão da relação contratual, orçamentação, faturação, contacto com o Cliente e execução dos serviços solicitados, em cumprimento do Regulamento Geral sobre a Proteção de Dados (RGPD).</p>
+          <p><strong>C.2.</strong> O responsável pelo tratamento dos dados é a Raizincisiva Unipessoal, Lda, podendo o Cliente exercer os seus direitos através do email geral.jovitech@gmail.com.</p>
+          <p><strong>C.3.</strong> Os dados pessoais serão conservados durante o período necessário à prestação do serviço e ao cumprimento das obrigações legais.</p>
+          <p><strong>C.4.</strong> Os dados apenas poderão ser transmitidos a terceiros quando tal seja indispensável à execução do serviço (ex.: transportadoras, fornecedores ou entidades legais).</p>
+
+          <hr class="divider" />
+
+          <h2>D. Preços</h2>
+          <p><strong>D.1.</strong> A todos os preços apresentados em euros (€) acresce o valor do IVA à taxa legal em vigor.</p>
+          <p><strong>D.2.</strong> Em caso de erro evidente de preço, informático ou humano, a Jovitech reserva-se o direito de anular o orçamento, informando o Cliente e apresentando, se aplicável, novo orçamento.</p>
+
+          <hr class="divider" />
+
+          <h2>E. Métodos de Pagamento</h2>
+          <p><strong>E.1.</strong> O pagamento dos serviços pode ser efetuado através de:</p>
+          <ul>
+            <li>MB / MB Way</li>
+            <li>Transferência bancária</li>
+            <li>Dinheiro (presencial)</li>
+            <li>Cobrança no destino (quando aplicável)</li>
+          </ul>
+          <p><strong>E.2.</strong> A Jovitech poderá disponibilizar outros métodos de pagamento no futuro.</p>
+
+          <hr class="divider" />
+
+          <h2>F. Orçamentação e Taxa de Análise Técnica</h2>
+          <p><strong>F.1.</strong> O Cliente dispõe de um prazo de 30 dias para aceitar o orçamento apresentado.</p>
+          <p><strong>F.2.</strong> Após a aceitação do orçamento, o Cliente dispõe de 15 dias para efetuar o respetivo pagamento.</p>
+          <p><strong>F.3.</strong> A não aceitação do orçamento dentro do prazo definido implica a devolução do equipamento ou o seu encaminhamento para desmantelamento, mediante indicação do Cliente.</p>
+
+          <h2>F.4. Taxa de Análise Técnica</h2>
+          <p><strong>F.4.1.</strong> Todos os equipamentos recebidos pela Jovitech estão sujeitos a taxa de análise técnica obrigatória, aplicada no momento da receção do equipamento, de acordo com o segmento:</p>
+          <ul>
+            <li><strong>20€</strong> – Eletrodomésticos, nomeadamente Robots de Cozinha</li>
+            <li><strong>30€</strong> – Segmento automóvel (centralinas, módulos eletrónicos e eletrónica associada)</li>
+            <li><strong>50€</strong> – Equipamentos pesados, incluindo máquinas agrícolas, industriais, florestais ou de construção</li>
+          </ul>
+          <p><strong>F.4.2.</strong> A taxa de análise técnica:</p>
+          <ul>
+            <li>será integralmente descontada no valor final da reparação, caso o orçamento seja aceite;</li>
+            <li>será devida e não reembolsável, caso o orçamento não seja aceite.</li>
+          </ul>
+          <p><strong>F.4.3.</strong> Esta taxa remunera o diagnóstico, desmontagem, testes, medições, tempo técnico e conhecimento especializado, independentemente da decisão final do Cliente.</p>
+          <p><strong>F.5.</strong> Os prazos de reparação são estimados e podem sofrer alterações por motivos alheios à Jovitech, nomeadamente atrasos no fornecimento de componentes.</p>
+
+          <hr class="divider" />
+
+          <h2>G. Faturação</h2>
+          <p>A fatura será disponibilizada em formato digital ou em papel, conforme acordado com o Cliente.</p>
+
+          <hr class="divider" />
+
+          <h2>H. Recolha, Transporte e Expedição</h2>
+          <p><strong>H.1.</strong> A Jovitech efetua recolhas e entregas por transportadora, recebe equipamentos enviados pelo Cliente e atende presencialmente.</p>
+          <p><strong>H.2.</strong> Os embalamento e acondicionamento do equipamento são da inteira responsabilidade do Cliente. A Jovitech não se responsabiliza por danos causados por embalamento inadequado.</p>
+          <p><strong>H.3.</strong> O Cliente deve verificar o estado da embalagem no momento da entrega e recusar a mesma caso existam danos visíveis.</p>
+
+          <hr class="divider" />
+
+          <h2>I. Garantia</h2>
+          <p><strong>I.1.</strong> A Jovitech concede 12 meses de garantia exclusivamente sobre os componentes reparados, contados a partir da data de conclusão do serviço.</p>
+          <p><strong>I.2.</strong> A garantia não cobre:</p>
+          <ul>
+            <li>software, ficheiros, mapas, configurações ou reprogramações;</li>
+            <li>danos físicos, oxidação, humidade ou mau uso;</li>
+            <li>intervenções posteriores realizadas por terceiros;</li>
+            <li>falhas não relacionadas com a reparação efetuada.</li>
+          </ul>
+          <p><strong>I.3.</strong> A Jovitech não se responsabiliza por perda de dados, informações ou configurações existentes nos equipamentos, sendo da responsabilidade do Cliente a realização de backups prévios.</p>
+
+          <hr class="divider" />
+
+          <h2>J. Direito de Livre Resolução</h2>
+          <p><strong>J.1.</strong> O Cliente dispõe de 14 dias para exercer o direito de livre resolução, nos termos legais.</p>
+          <p><strong>J.2.</strong> Caso o Cliente solicite expressamente o início do serviço durante esse período, perde o direito de livre resolução.</p>
+          <p><strong>J.3.</strong> Caso o serviço já tenha sido parcialmente prestado, o Cliente deverá pagar o valor proporcional ao trabalho efetuado.</p>
+
+          <hr class="divider" />
+
+          <h2>K. Reembolsos</h2>
+          <p>Os reembolsos, quando aplicáveis, serão efetuados por transferência bancária para conta titulada pelo Cliente.</p>
+
+          <hr class="divider" />
+
+          <h2>L. Resolução de Litígios</h2>
+          <p>Em caso de litígio, o Cliente pode recorrer ao Centro de Arbitragem de Conflitos de Consumo do Alentejo – Évora, nos termos da legislação em vigor.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const openBtn = document.getElementById('openTerms');
+    const modal = document.getElementById('termsModal');
+    const closeBtn = document.getElementById('closeTerms');
+
+    function openModal(){
+      modal.style.display = 'flex';
+      // bloqueia scroll do body
+      document.body.style.overflow = 'hidden';
+      closeBtn.focus();
+    }
+
+    function closeModal(){
+      modal.style.display = 'none';
+      document.body.style.overflow = '';
+      openBtn.focus();
+    }
+
+    openBtn.addEventListener('click', openModal);
+    closeBtn.addEventListener('click', closeModal);
+
+    // fechar ao clicar fora
+    modal.addEventListener('click', (e) => {
+      if(e.target === modal) closeModal();
+    });
+
+    // fechar com ESC
+    document.addEventListener('keydown', (e) => {
+      if(e.key === 'Escape' && modal.style.display === 'flex'){
+        closeModal();
+      }
+    });
+  </script>
+</body>
+</html>
